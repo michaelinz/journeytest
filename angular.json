@@ -26,7 +26,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/do-not-refactor/LawnmowerRepository.js",
+              "src/assets/do-not-refactor/PhoneCaseRepository.js",
+              "src/assets/do-not-refactor/TShirtRepository.js"
+            ]
           },
           "configurations": {
             "production": {

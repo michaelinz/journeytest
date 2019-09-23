@@ -2,10 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ConvertEUROPipe, ConvertUSDPipe } from './convert.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ConvertEUROPipe,
+    ConvertUSDPipe
   ],
   imports: [
     BrowserModule
